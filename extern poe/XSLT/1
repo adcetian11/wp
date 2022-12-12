@@ -1,0 +1,22 @@
+XSL- eXtensible Stylesheet Language
+XSLT- XSL transformations
+XML- eXtensible Markup Language
+
+run on this link
+https://www.w3schools.com/xml/tryxslt.asp?xmlfile=cdcatalog&xsltfile=cdcatalog
+
+An XSLT document has the .xsl extension
+ The XSLT document begins with:
+
+<?xml version="1.0"?>
+<xsl:stylesheet version="1.0"
+xmlns:xsl="http://www.w3.org/1999/
+
+XSL/Transform">
+
+ Contains one or more templates, such as:
+
+<xsl:template match="/"> ... </xsl:template>
+
+ And ends with:
+</xsl:stylesheet>

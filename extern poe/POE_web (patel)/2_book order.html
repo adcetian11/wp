@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Book Order</title>
+        <style>
+            form{
+                
+                margin: 20px auto;  
+                padding: 50px;  
+                border: 3px solid black; 
+                margin-top: 90px;
+                margin-left: 550px;
+                margin-right: 450px;
+                margin-bottom: 200px;
+                background-color: lightpink;
+            }
+            h2{
+                width: 75%;  
+                padding-left: 115px;
+                background-color: aliceblue;
+            }
+            input[type=submit]{
+                margin-left: 150px;
+                background-color: red;
+                border: 2px solid black;
+                color: white;
+                width: 100px;
+                height: 30px;
+                font-weight: bold;
+}        
+            
+        </style>
+    </head>
+    <body>
+        <form action="#">
+            <h2> Book Order Form</h2>  <br>
+            Name: <input type="text" pattern="[a-z A-Z]*" required><br><br>
+            Email: <input type="email"  required> <br><br>
+            Phone Number: <input type="text" pattern="[0-9]{10}" required><br><br>
+            Address: <input type="text" required><br><br>
+
+            Book Names to order: <br>    
+                 <input type="checkbox" />    
+                 <label>Wings of Fire</label> <br> 
+
+                 <input type="checkbox" />    
+                 <label>Shriman Yogi</label> <br>   
+
+                 <input type="checkbox" />    
+                 <label>Dark Horse</label> <br>   
+
+                 <input type="checkbox" />    
+                 <label>Mrityunjaya</label> <br> 
+
+                 <input type="checkbox" />    
+                 <label>Rich Dad Poor Dad</label> <br>  
+
+                 <input type="checkbox" />    
+                 <label>The Guide By R.K. Narayan</label>  <br><br>
+
+                 <input type="submit" value="Submit">
+        </form>
+    </body>
+</html>

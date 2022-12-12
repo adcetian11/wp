@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>To implement operators</title>
+        <style>
+            form{
+                
+                margin: 20px auto;  
+                padding: 50px;  
+                border: 3px solid black; 
+                margin-top: 200px;
+                margin-left: 550px;
+                margin-right: 450px;
+                margin-bottom: 200px;
+                background-color: lightpink;
+            }
+        </style>
+    </head>
+    <body>
+        <form>
+            Enter the 1st integer: <input type="text" id="1" /><br><br>
+            Enter the 2nd integer: <input type="text" id="2" /><br><br>
+            <input type="button" onClick="sum()" Value="+">
+            <input type="button" onClick="sub()" Value="-">
+            <input type="button" onClick="mul()" Value="*">
+            <input type="button" onClick="div()" Value="/">
+            <p>The result is : <span id = "result"></span></p>
+        </form>
+
+       
+
+        <script>
+            function sum()
+            {
+                 num1 = document.getElementById("1").value;
+                 num2 = document.getElementById("2").value;
+                 document.getElementById("result").innerHTML = parseInt(num1) + parseInt(num2);
+            }
+            function sub()
+            {
+                 num1 = document.getElementById("1").value;
+                 num2 = document.getElementById("2").value;
+                 document.getElementById("result").innerHTML = num1 - num2;
+            }
+            function mul()
+            {
+                 num1 = document.getElementById("1").value;
+                 num2 = document.getElementById("2").value;
+                 document.getElementById("result").innerHTML = num1 * num2;
+            }
+            function div()
+            {
+                 num1 = document.getElementById("1").value;
+                 num2 = document.getElementById("2").value;
+                 document.getElementById("result").innerHTML = num1 / num2;
+            }
+        </script>
+    </body>
+</html>

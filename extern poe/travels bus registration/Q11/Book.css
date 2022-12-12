@@ -1,0 +1,16 @@
+body {
+    background-image: linear-gradient(rgba(248, 242, 242, 0.5), rgba(32, 213, 29, 0.5));
+}
+
+.form {
+    margin-top: 15%;
+}
+
+.btn {
+    background-color: #f44336;
+    color: white;
+    padding: 14px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}

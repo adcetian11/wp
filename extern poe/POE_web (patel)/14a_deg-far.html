@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+   <head>
+      <script>
+         function degree()
+         {
+           var d,f;
+           d = parseInt(document.getElementById("d").value);
+      
+            f=(d*(9/5))+32;
+           document.getElementById("answer").value = f;
+         }
+      </script>
+      <style>
+        h2{
+            text-align: center;
+            color: blue;
+        }
+        body{
+            text-align: center;
+            background-color: lightblue;
+        }
+      </style>
+      <h2>Conversion of Temprature from degree to Fahrenheit
+      </h2>
+   </head>
+   <body>
+      <p>Temprature  in degree<input id="d"></p>
+     
+      <button onclick="degree()">Convert into Fahrenheit</button>
+      <p>Temprature in Fahrenheit <input id="answer"></p>
+   </body>
+</html>

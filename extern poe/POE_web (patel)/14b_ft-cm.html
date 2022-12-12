@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+   <head>
+      <h2>
+         Conversion of Height from Feet to cm
+      </h2>
+      <style>
+      h2{
+         text-align: center;
+         color: blue;
+     }
+     body{
+         text-align: center;
+         background-color: lightblue;
+     }
+   </style>
+      <script>
+         function feet()
+         {
+           var num1, cm;
+           num1 = parseInt(document.getElementById("feet").value);
+        
+           cm= 30.48 *num1;
+           document.getElementById("answer").value = cm;
+         }
+      </script>
+   </head>
+   <body>
+      <p>Height in Feet<input id="feet"></p>
+     
+      <button onclick="feet()">Convert into cm</button>
+      <p>Height in cm = <input id="answer"></p>
+   </body>
+</html>

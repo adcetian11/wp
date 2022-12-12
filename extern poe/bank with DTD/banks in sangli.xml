@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl "href="Rule.xsl" ?>
+<bank>
+<s>
+<sr>1</sr>
+<name> Maharashtra Bank </name>
+<address>401, Harbhat road, Sangli</address>
+<Total_Turnaround>40,00000/-</Total_Turnaround>
+<Distence_from_center>2KM</Distence_from_center>
+</s>
+
+<s>
+<sr>2</sr>
+<name> Janata Bank </name>
+<address>702, Vishrambag, Sangli</address>
+<Total_Turnaround>80,00000/-</Total_Turnaround>
+<Distence_from_center>10KM</Distence_from_center>
+</s>
+
+<s>
+<sr>3</sr>
+<name> Bank of India </name>
+<address>702, Vishrambag, Sangli</address>
+<Total_Turnaround>90,00000/-</Total_Turnaround>
+<Distence_from_center>10KM</Distence_from_center>
+</s>
+
+<s>
+<sr>4</sr>
+<name> ICICI </name>
+<address>402, Station road, Sangli</address>
+<Total_Turnaround>50,00000/-</Total_Turnaround>
+<Distence_from_center>7KM</Distence_from_center>
+</s>
+
+<s>
+<sr>5</sr>
+<name> Bank of Baroda </name>
+<address>405, Near Ram mandir, Sangli</address>
+<Total_Turnaround>4,00000/-</Total_Turnaround>
+<Distence_from_center>9KM</Distence_from_center>
+</s>
+
+</bank>

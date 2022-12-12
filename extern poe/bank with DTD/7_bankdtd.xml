@@ -1,0 +1,49 @@
+<?xml version = "1.0"?>
+<!DOCTYPE class
+[
+<!ELEMENT class (bank, bank, bank, bank, bank)>
+<!ELEMENT bank (id,name_of_bank, address, Total_turnaround, Distance_From_Center)>
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT name_of_bank (#PCDATA)>
+<!ELEMENT address (#PCDATA)>
+<!ELEMENT Total_turnaround (#PCDATA)>
+<!ELEMENT Distance_From_Center (#PCDATA)>
+]>
+<?xml-stylesheet type = "text/xsl" href = "employee.xsl"?>
+<class>
+   <bank >
+     <id>1</id>
+      <name_of_bank>Maharashtra Bank</name_of_bank>
+      <address>401, Harbhat road, sangli</address>
+      <Total_turnaround>40,0000/-</Total_turnaround>
+   <Distance_From_Center>2KM</Distance_From_Center>
+   </bank>
+   <bank>
+     <id>2</id>
+      <name_of_bank>Janata bank</name_of_bank>
+      <address>702, vishrambagh, sangli</address>
+      <Total_turnaround> 80,00000/-</Total_turnaround>
+      <Distance_From_Center>10KM</Distance_From_Center>
+   </bank>
+   <bank>
+     <id>3</id>
+      <name_of_bank>Bank of India</name_of_bank>
+      <address>707, Vishrambagh , sangli</address>
+      <Total_turnaround> 90,00000/-</Total_turnaround>
+      <Distance_From_Center>10KM</Distance_From_Center>
+   </bank>
+   <bank>
+     <id>4</id>
+    <name_of_bank>ICICI</name_of_bank>
+    <address>402, station road, sangli</address>
+    <Total_turnaround>50,00000/-</Total_turnaround>
+    <Distance_From_Center>7KM</Distance_From_Center>
+ </bank>
+ <bank>
+   <id>5</id>
+    <name_of_bank>Bank of Baroda</name_of_bank>
+    <address>405, near Ram mandir,sangli</address>
+    <Total_turnaround>4,00000/-</Total_turnaround>
+    <Distance_From_Center>9KM</Distance_From_Center>
+ </bank>
+</class>

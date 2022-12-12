@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<title>Units Converter</title>
+<body>
+
+<h2>Temperature Converter</h2>
+<p>Type a value in the Celcius field to convert the value to Fahrenheit:</p>
+<p>
+  <label>Celcius</label>
+  <input id="inputCelcius" type="number" placeholder="Celcius" oninput="temperatureConverter(this.value)" onchange="temperatureConverter(this.value)">
+</p>
+<p>Fahrenheit: <span id="outputFahrenheit"></span></p>
+
+
+
+<h2>Height Converter</h2>
+<p>Type a value in the Feet field to convert the value to cm:</p>
+<p>
+  <label>Feet</label>
+  <input id="inputFeet" type="number" placeholder="Feet" oninput="heightConverter(this.value)" onchange="heightConverter(this.value)">
+</p>
+<p>cm: <span id="outputcm"></span></p>
+
+<script>
+
+function temperatureConverter(valNum) 
+{
+  valNum = parseFloat(valNum);
+  document.getElementById("outputFahrenheit").innerHTML=(valNum*1.8)+32;
+}
+
+function heightConverter(valNum1) {
+  valNum1 = parseFloat(valNum1);
+  document.getElementById("outputcm").innerHTML=(valNum1*30.48);
+}
+
+</script>
+
+</body>
+</html>

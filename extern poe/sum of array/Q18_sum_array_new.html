@@ -1,0 +1,30 @@
+<html>
+<head>
+</head>
+<body>
+
+<script>
+function sumarray(array)
+{
+	var sum=0
+	for(var i=0;i<array.length;i++)
+	{
+		sum=sum+array[i]
+		
+
+	}
+	return sum;
+	
+
+}
+
+var a= new Array();
+var n= prompt("Enter the size of array");
+for (var i=0;i<n;i++)
+{
+	a[i]=parseInt(prompt("Enter element"+i))
+	
+}
+document.write("<h3>Sum of Array Element: "+sumarray(a)+"</h3>");
+</script></body>
+</html>

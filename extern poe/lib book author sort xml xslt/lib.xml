@@ -1,0 +1,64 @@
+<?xml version = "1.0"?>  
+<?xml-stylesheet type = "text/xsl" href = "lib.xsl"?>   
+<class>   
+   <student id = "08">  
+      <name>The India Story</name>   
+      <author>Bimal Jalal</author>     
+      <price>1,900</price>
+      <publication_yr>2019</publication_yr>  
+   </student> 
+   <student id = "01">  
+      <name>Life in the Clock Tower Valley</name>   
+      <author>Shakoor Rather</author>
+       <price>2,990</price>     
+      <publication_yr>1998</publication_yr>  
+   </student> 
+   <student id = "05">  
+      <name>The Living Mountain</name>   
+      <author>Amitav Ghosh</author>
+       <price>875</price>     
+      <publication_yr>2000</publication_yr>  
+   </student> 
+   <student id = "06">  
+      <name>Beautiful Things</name>   
+      <author>Hunter Biden</author>
+       <price>5,000</price>     
+      <publication_yr>2007</publication_yr>  
+   </student> 
+   <student id = "10">  
+      <name>Farishta</name>   
+      <author>Kapil Isapuari</author>
+       <price>999</price>     
+      <publication_yr>1995</publication_yr>  
+   </student> 
+   <student id = "09">  
+      <name>My Music My Life</name>   
+      <author>Pt Ravi Shankar</author>
+       <price>1,999</price>     
+      <publication_yr>2005</publication_yr>  
+   </student> 
+   <student id = "07">  
+      <name>Half Girlfriend</name>   
+      <author>Chetan Bhagat</author>
+       <price>3,000</price>     
+      <publication_yr>1992</publication_yr>  
+   </student> 
+   <student id = "03">  
+      <name>Black Tornado: The Three Sieges of Mumbai 26/11</name>   
+      <author>Sandeep Unnithan</author>
+       <price>2,000</price>     
+      <publication_yr>2004</publication_yr>  
+   </student> 
+   <student id = "02">  
+      <name>Flood of Fire</name>   
+      <author>Amitav Ghosh</author>
+       <price>5,000</price>     
+      <publication_yr>1999</publication_yr>  
+   </student> 
+   <student id = "04">  
+      <name>An Autobiography</name>   
+      <author>Jawahar Lal Nehru</author> 
+      <price>7,000</price>    
+      <publication_yr>1885</publication_yr>  
+   </student> 
+</class>
